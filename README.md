@@ -20,6 +20,18 @@ Prodi : Sistem Informasi
 
 ## Directory Folder
 
+📦0_Profile David Nasrulloh
+ ┣ 📂img
+ ┃ ┗ 📜foto-nonformal-david.jpg
+ ┗ 📜readme.md
+📦1_Version Control and Branch Management (Git)
+ ┣ 📂praktikum
+ ┃ ┗ 📜readme.md
+ ┣ 📂screenshots
+ ┃ ┗ 📜david.png
+ ┗ 📜readme.md
+ 
+
 -------
 
 **~ mengalir namun tidak terbawa air ~**
