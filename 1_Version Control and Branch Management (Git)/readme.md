@@ -144,4 +144,4 @@ $ git branch -d new-feature
 
 ### output praktikum:
 
-![praktikum](./screenshots/david.jpg)
+![praktikum](./screenshots/david.png)
