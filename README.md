@@ -21,9 +21,6 @@ Prodi : Sistem Informasi
 
 ## Directory Folder
 
-📦0_Profile David Nasrulloh
-┣ 📂img
-┃ ┗ 📜foto-nonformal-david.jpg
-┗ 📜readme.md
+-------
 
 **~ mengalir namun tidak terbawa air ~**
