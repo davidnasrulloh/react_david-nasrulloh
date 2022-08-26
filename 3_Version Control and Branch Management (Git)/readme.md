@@ -1,4 +1,4 @@
-# 1 \_ Version Control and Branch Management (Git)
+# 3 \_ Version Control and Branch Management (Git)
 
 ```sh
 Nama  : David Nasrulloh

@@ -50,6 +50,7 @@ Figma is a vector graphics editor and prototyping tool which is primarily web-ba
 
 ##### How to start and Whats point ?
 
+```
 - Dalam membuat sebuah design maka diperlukanlah sebuah frame dan grid dan layout yang simple
 - Memperhatikan penggunaan auto layout menjadi hal yang sangat penting untuk diterapkan dalam proses desain
 - Styling color, membuat typrografy dll atau dalam artian membuat sebuah design sistem diharapkan menggunakan proses design athomic (dari partikel yang paling kecil) hal ini bertujuan agar semua dapat terkontrol dan ter maintenance dengan baik
@@ -60,6 +61,11 @@ Figma is a vector graphics editor and prototyping tool which is primarily web-ba
 - 3. Ideate (incude pencarian moodboard)
 - 4. Prototype (include pembuatan design system)
 - 5. Testing
+```
+
+Hasil dari tugas kelas
+
+![landing-page](./Screenshots/landing-page.png)
 
 ---
 
