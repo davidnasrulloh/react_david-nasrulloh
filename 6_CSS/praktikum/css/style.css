@@ -1,0 +1,72 @@
+header {
+    padding: 4px 24px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo>img {
+    width: 120px;
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+    width: 30%;
+}
+
+nav {
+    display: inline-block;
+    width: 70%;
+}
+
+ul>li {
+    display: inline-block;
+    margin-left: 32px;
+    color: blue;
+}
+
+ul>li>a {
+    text-decoration: none;
+}
+
+ul {
+    float: right;
+    padding-top: 12px;
+}
+
+main {
+    background-image: url(../img/sample-pattern.png);
+    padding: 16px 0px;
+}
+
+section {
+    margin: 32px 0px;
+}
+
+.judul-post {
+    text-align: center;
+}
+
+.content {
+    background-color: white;
+    padding: 24px;
+}
+
+article>h5 {
+    color: blue;
+    margin-bottom: 12px;
+}
+
+article {
+    margin-bottom: 32px;
+    border-bottom: 1px solid rgb(201, 194, 194);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
