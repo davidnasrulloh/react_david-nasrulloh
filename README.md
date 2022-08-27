@@ -49,6 +49,19 @@ Prodi : Sistem Informasi
  ┃ ┣ 📜index.png
  ┃ ┗ 📜welcome.png
  ┗ 📜readme.md
+ 📦6_CSS
+ ┣ 📂praktikum
+ ┃ ┣ 📂css
+ ┃ ┃ ┗ 📜style.css
+ ┃ ┣ 📂img
+ ┃ ┃ ┣ 📜sample-logo.png
+ ┃ ┃ ┗ 📜sample-pattern.png
+ ┃ ┣ 📜file1.html
+ ┃ ┗ 📜file2.html
+ ┣ 📂screenshots
+ ┃ ┣ 📜file1.png
+ ┃ ┗ 📜file2.png
+ ┗ 📜readme.md
 ```
 
 ---
