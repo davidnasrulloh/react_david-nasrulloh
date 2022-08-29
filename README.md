@@ -62,6 +62,65 @@ Prodi : Sistem Informasi
  ┃ ┣ 📜file1.png
  ┃ ┗ 📜file2.png
  ┗ 📜readme.md
+ 📦7_Bootstrap
+ ┣ 📂praktikum
+ ┃ ┣ 📂assets
+ ┃ ┃ ┣ 📂css
+ ┃ ┃ ┃ ┗ 📜style.css
+ ┃ ┃ ┗ 📂img
+ ┃ ┃ ┃ ┣ 📂blog
+ ┃ ┃ ┃ ┃ ┣ 📜blog-image-1.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜blog-image-2.jpg
+ ┃ ┃ ┃ ┃ ┗ 📜blog-image-3.jpg
+ ┃ ┃ ┃ ┣ 📂screen
+ ┃ ┃ ┃ ┃ ┣ 📜1.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜2.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜3.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜4.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜5.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜6.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜7.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜8.jpg
+ ┃ ┃ ┃ ┃ ┗ 📜9.jpg
+ ┃ ┃ ┃ ┣ 📂svg
+ ┃ ┃ ┃ ┃ ┣ 📜asteroid.svg
+ ┃ ┃ ┃ ┃ ┣ 📜cloud-computing.svg
+ ┃ ┃ ┃ ┃ ┣ 📜cloud.svg
+ ┃ ┃ ┃ ┃ ┣ 📜code.svg
+ ┃ ┃ ┃ ┃ ┣ 📜design-tool.svg
+ ┃ ┃ ┃ ┃ ┣ 📜paint-palette.svg
+ ┃ ┃ ┃ ┃ ┣ 📜pixel.svg
+ ┃ ┃ ┃ ┃ ┣ 📜planet.svg
+ ┃ ┃ ┃ ┃ ┣ 📜tools.svg
+ ┃ ┃ ┃ ┃ ┗ 📜vector.svg
+ ┃ ┃ ┃ ┣ 📂team
+ ┃ ┃ ┃ ┃ ┣ 📜1.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜2.jpg
+ ┃ ┃ ┃ ┃ ┣ 📜3.jpg
+ ┃ ┃ ┃ ┃ ┗ 📜4.jpg
+ ┃ ┃ ┃ ┣ 📜about-img.png
+ ┃ ┃ ┃ ┣ 📜apple-touch-icon.png
+ ┃ ┃ ┃ ┣ 📜favicon.png
+ ┃ ┃ ┃ ┣ 📜hero-bg.png
+ ┃ ┃ ┃ ┣ 📜hero-img.png
+ ┃ ┃ ┃ ┣ 📜newsletter-bg.jpg
+ ┃ ┃ ┃ ┗ 📜video-bg.jpg
+ ┃ ┣ 📂forms
+ ┃ ┃ ┣ 📜contact.php
+ ┃ ┃ ┗ 📜Readme.txt
+ ┃ ┣ 📂tugas
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┣ 📜bg-img.png
+ ┃ ┃ ┃ ┗ 📜hero.svg
+ ┃ ┃ ┣ 📜index.html
+ ┃ ┃ ┗ 📜style.css
+ ┃ ┗ 📜index.html
+ ┣ 📂screenshots
+ ┃ ┣ 📜praktikum1.png
+ ┃ ┣ 📜praktikum2.png
+ ┃ ┣ 📜tugas_1.png
+ ┃ ┗ 📜tugas_2.png
+ ┗ 📜readme.md
 ```
 
 ---
