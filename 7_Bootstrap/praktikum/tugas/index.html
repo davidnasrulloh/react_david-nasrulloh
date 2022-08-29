@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- FOnt Philosofer -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light p-4">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <span class="text-success">e</span> Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown link</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main content -->
+    <section class="content-main-bg mt-5 text-center">
+        <h1 class="text-welcome">Welcome to eStartup</h1>
+        <h4 class="">Elegant Bootstrap Template Startup, Apps & more .....</h4>
+        <img src="./img/hero.svg" class="img-fluid mx-auto d-block mt-5" style="display: inline-block; width: 500px;" alt="hero-img">
+        <button class="btn btn-success mt-2">Success</button>
+        <div class="app mt-3">
+            <a href="#" class="me-3"><i>App Store</i></a>
+            <a href="#" class="me-3"><i>Google Play</i></a>
+            <a href="#" class="me-3"><i>Windows</i></a>
+        </div>
+    </section>
+
+    <!-- Contact  -->
+    <section class="contact ">
+        <div class="container">
+            <div class="text-center pt-5 pb-5">
+                <h2>Contact</h2>
+                <p class="pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo voluptate cupiditate quas vitae voluptatibus odit accusantium blanditiis nemo? Cum vitae quaerat sit blanditiis qui incidunt illum provident enim quod corrupti. Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Hic quia fuga enim dolor minima! Aperiam saepe ea libero, explicabo suscipit odit doloribus inventore, ipsum sit minus quam rerum aliquid commodi. </p>
+            </div>
+            <div class="row pb-5 justify-content-center">
+                <div class="col-sm-3">
+                    <div class="info">
+                        <i class="bi bi-house-fill"></i>
+                        <p>A108 Adam Street <br> New York, NY 912891</p>
+                    </div>
+                    <div class="info">
+                        <i class="bi bi-envelope-fill"></i>
+                        <p>davidkrb52@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <i class="bi bi-telephone-fill"></i>
+                        <p>01298918293</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-behance"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <form action="">
+                        <div class="form-group mt-3">
+                            <input type="text" placeholder="Username" name="username" class="form-control">
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="email" placeholder="Your email" name="email" class="form-control">
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" placeholder="Subject" name="subject" class="form-control">
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea type="text" placeholder="Subject" name="subject" class="form-control" id="" cols="30" rows="5"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-success mt-3">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="text-center pt-3">
+        <p>© David Nasrulloh | 2022</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+
+</html>

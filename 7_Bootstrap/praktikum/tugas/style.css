@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: green !important;
+    text-decoration: none;
+}
+
+.app>a {
+    color: white;
+    text-decoration: none;
+}
+
+.app>a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.text-welcome {
+    color: #71c55d;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.content-main-bg {
+    height: calc(90vh);
+    background: url(./img/bg-img.png) bottom no-repeat;
+    background-size: 100%;
+}
+
+.contact {
+    background-color: #007AD1;
+}
+
+.info p {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.info i {
+    font-size: 2rem;
+    color: white;
+}
+
+.info i:hover {
+    font-size: 2rem;
+    color: yellow;
+}
+
+.social-media a i {
+    color: white;
+    font-size: 2rem;
+    margin-right: 12px;
+}
+
+.social-media a i:hover {
+    color: yellow;
+    font-size: 2rem;
+    margin-right: 12px;
+}

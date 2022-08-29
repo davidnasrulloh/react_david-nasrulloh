@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    color: rgb(52, 45, 45);
+    font-weight: normal !important;
+}
+
+.color-primary {
+    color: #71C55D;
+}
+
+.nav-item a {
+    font-size: 14px;
+    margin-right: 12px;
+}
+
+.nav-item a:hover {
+    font-weight: bold !important;
+}
+
+nav {
+    box-shadow: 1px 1px 15px #dad1d1;
+}
+
+.fitur h4 {
+    font-size: 16px;
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+
+.fitur a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(118, 98, 98);
+    font-weight: bold;
+}
+
+.fitur p {
+    line-height: 2em;
+}
+
+.detail-item li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.detail-item li i {
+    margin-right: 12px;
+}
+
+.background-footer {
+    background-color: rgb(48, 42, 42);
+}
+
+footer {
+    color: white;
+}
+
+footer h3 {
+    font-size: 24px;
+}
+
+.footer-menu h4 {
+    font-size: 16px;
+}
+
+.footer-menu div a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 4px;
+    display: block;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.footer-name {
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: 4px;
+}
