@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 18vh;
+    height: 18vh;
+    border-radius: 12px;
+    background-image: url('foto-nonformal-david.jpg');
+    background-size: cover;
+    margin: 8px;
+}
+
+.left {
+    justify-content: start;
+}
+
+.right {
+    justify-content: end;
+}

@@ -145,6 +145,12 @@ Clas dan properti pada framework bootstrap ada pada halaman dokumentasi Bootstra
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
 ```
 
+### output tugas (challenge):
+
+##### Tugas Membuat Layouting menggunakan Flexbox
+
+![tugas](./screenshots/tugas.png)
+
 ### output praktikum:
 
 ##### File 1
