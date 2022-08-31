@@ -121,6 +121,14 @@ Prodi : Sistem Informasi
  ┃ ┣ 📜tugas_1.png
  ┃ ┗ 📜tugas_2.png
  ┗ 📜readme.md
+ 📦8_Javascript Refreshment
+ ┣ 📂praktikum
+ ┃ ┣ 📜prak1.js
+ ┃ ┗ 📜prak2.js
+ ┣ 📂screenshots
+ ┃ ┣ 📜prak1.png
+ ┃ ┗ 📜prak2.png
+ ┗ 📜readme.md
 ```
 
 ---
