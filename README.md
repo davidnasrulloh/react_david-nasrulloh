@@ -129,6 +129,12 @@ Prodi : Sistem Informasi
  ┃ ┣ 📜prak1.png
  ┃ ┗ 📜prak2.png
  ┗ 📜readme.md
+ 📦9_Clean Code
+ ┣ 📂praktikum
+ ┃ ┣ 📜dave.js
+ ┃ ┗ 📜dave1.js
+ ┣ 📂screenshots
+ ┗ 📜readme.md
 ```
 
 ---
