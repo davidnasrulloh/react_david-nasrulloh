@@ -1,9 +1,11 @@
 # 8 \_ Javascript Refreshment
 
-> Nama : David Nasrulloh
-> Email : davidkrb52@gmail.com
-> Univ : Universitas Trunojoyo Madura
-> Prodi : Sistem Informasi
+```
+Nama : David Nasrulloh
+Email : davidkrb52@gmail.com
+Univ : Universitas Trunojoyo Madura
+Prodi : Sistem Informasi
+```
 
 ---
 
@@ -350,9 +352,6 @@ https://www.w3schools.com/js/js_htmldom.asp
 ### output tugas :
 
 ##### Tugas
-
-![tugas1](./screenshots/tugas_1.png)
-![tuags2](./screenshots/tugas_2.png)
 
 ---
 
