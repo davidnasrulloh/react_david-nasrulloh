@@ -54,7 +54,7 @@ Flowchart adalah suatu bagan dengan simbol tertentu yang menggambarkan urutan da
 
 ##### File 1
 
-![file1](./screenshots/prak1.png)
+![file1](./screenshots/prak2.png)
 
 ---
 
