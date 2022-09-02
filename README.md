@@ -135,6 +135,12 @@ Prodi : Sistem Informasi
  ┃ ┗ 📜dave1.js
  ┣ 📂screenshots
  ┗ 📜readme.md
+ 📦10_Introduction Algorithm
+ ┣ 📂praktikum
+ ┃ ┗ 📜readme.md
+ ┣ 📂screenshots
+ ┃ ┗ 📜prak1.png
+ ┗ 📜readme.md
 ```
 
 ---
