@@ -10,7 +10,7 @@ Prodi : Sistem Informasi
 
 ### Flowchart
 
-![flowchart](https://github.com/davidnasrulloh/react_david-nasrulloh/blob/master/10_Introduction%20Algorithm/screenshots/prak1.png)
+![flowchart](https://github.com/davidnasrulloh/react_david-nasrulloh/blob/master/10_Introduction%20Algorithm/screenshots/prak2.png)
 
 ---
 
