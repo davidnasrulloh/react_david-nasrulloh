@@ -10,7 +10,7 @@ Prodi : Sistem Informasi
 
 ### Flowchart
 
-![flowchart](./screenshots/prak1.jpg)
+![flowchart](./screenshots/prak1.png)
 
 ---
 
