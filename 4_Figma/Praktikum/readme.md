@@ -6,7 +6,7 @@ Lakukan analisis untuk contoh kode figma diatas
 
 ### Button
 
-![button](./screenshots/button.jpg)
+![button](https://github.com/davidnasrulloh/react_david-nasrulloh/blob/master/4_Figma/Screenshots/button.png)
 
 ##### Dari design tersebut, cobalah tentukan
 
@@ -22,7 +22,7 @@ Lakukan analisis untuk contoh kode figma diatas
 
 ### Card
 
-![button](./screenshots/card.jpg)
+![button](https://github.com/davidnasrulloh/react_david-nasrulloh/blob/master/4_Figma/Screenshots/card.png)
 
 ##### Dari ukuran card yang ada tentukanlah
 

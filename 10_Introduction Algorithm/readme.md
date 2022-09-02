@@ -50,6 +50,12 @@ Algoritma adalah prosedur komputasi yang didefenisikan dengan baik yang mengambi
 
 Flowchart adalah suatu bagan dengan simbol tertentu yang menggambarkan urutan dan hubungan antar proses secara mendetail
 
+### output praktikum:
+
+##### File 1
+
+![file1](./screenshots/prak1.png)
+
 ---
 
 02 September 2022 | David Nasrulloh
