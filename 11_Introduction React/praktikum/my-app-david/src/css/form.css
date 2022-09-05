@@ -1,0 +1,22 @@
+.form-img {
+    background-image: url("../img/charles-rRWiVQzLm7k-unsplash.jpg");
+    background-size: cover;
+    padding: 0;
+    min-height: 650px;
+    width: 100%;
+}
+
+.alta{
+    align-content: center;
+    width: 248px;
+}
+
+.isi-form{
+    font-family: 'Muli', sans-serif;
+    font-size: 23px;
+    color: #19345e;
+}
+
+.rincian-form{
+    font-size: 20px;
+}
