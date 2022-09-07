@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+}
+
+
+
+.card {
+    padding: 12px 24px;
+    border-color: black;
+    border-radius: 12px;
+    border: solid;
+    margin: 24px;
+    width: 400px;
+}
