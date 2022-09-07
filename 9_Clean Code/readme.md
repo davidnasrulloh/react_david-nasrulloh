@@ -95,6 +95,10 @@ Tips untuk selalu KISS
 3. Perbaiki penamaan dan lokasi kode
 4. Deteksi kode yang memiliki duplikasi
 
+Output Challenge
+![file1](./screenshots/ch_1.png)
+![file2](./screenshots/ch_2.png)
+
 ---
 
-01 September 2022 | David Nasrulloh
+1 September 2022 | David Nasrulloh
