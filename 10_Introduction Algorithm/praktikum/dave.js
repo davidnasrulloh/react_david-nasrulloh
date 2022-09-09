@@ -2,7 +2,7 @@ const findMyPet = (name) => {
     let hewan;
     let indexH;
 
-    const pets = myPets.map((pet) => {
+    myPets.map((pet) => {
         if (name == pet) {
             hewan = name;
             indexH = myPets.indexOf(pet);
