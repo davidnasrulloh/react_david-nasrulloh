@@ -74,9 +74,12 @@ Dalam materi ini, mempelajari:
 
 ### output praktikum:
 
-##### File 1
+##### Halaman Home
 
 ![file1](./screenshots/prak1.png)
+![file2](./screenshots/prak2.png)
+![file3](./screenshots/prak3.png)
+![file4](./screenshots/prak4.png)
 
 ---
 
