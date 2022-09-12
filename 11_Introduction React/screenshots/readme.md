@@ -9,7 +9,7 @@ Prodi : Sistem Informasi
 
 ##### Halaman Home
 
-![file1](./screenshots/prak1.png)
-![file2](./screenshots/prak2.png)
-![file3](./screenshots/prak3.png)
-![file4](./screenshots/prak4.png)
+![file1](./prak1.png)
+![file2](./prak2.png)
+![file3](./prak3.png)
+![file4](./prak4.png)
