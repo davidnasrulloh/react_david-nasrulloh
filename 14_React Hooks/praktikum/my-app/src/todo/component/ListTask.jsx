@@ -1,29 +1,21 @@
 import styles from "./ListTask.module.css";
 import checked from "../img/checkbox-checked-svgrepo-com.svg";
 import unchecked from "../img/checkbox-unchecked-svgrepo-com.svg";
+// import { useState } from "react";
 
-function ListTask({task}) {
-    const coret = task.completed;
+const ListTask = ({data, hapusTask}) => {
+    let coret = data.completed;
+
 
     return (
         <div className={styles.container}>
             <div className={styles.containerCard}>
-            {
-                coret ? (
-                    <div className={styles.card}>
-                        <img src={checked} alt="" />
-                        <p style={{ textDecoration: "line-through" }} >{task.title}</p>
-                        <button>delete</button>
-                    </div>
-                ) : (
-                    <div className={styles.card}>
-                        <img src={unchecked} alt="" />
-                        <p>{task.title}</p>
-                        <button>delete</button>
-                    </div>
-                )
-            }
-        </div>
+                <div className={styles.card}>
+                    <button><img id="myCheck" src={coret ? checked : unchecked} alt="" /></button>
+                    <p id="title" style={ coret ? { textDecoration: "line-through"} : {textDecoration: ""} }>{data.title}</p>
+                    <button onClick={()=>{hapusTask(data.id)}} className={styles.delete}>delete</button>
+                </div>
+            </div>
         </div>
     );
 }
