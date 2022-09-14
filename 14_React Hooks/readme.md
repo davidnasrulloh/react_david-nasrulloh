@@ -78,7 +78,11 @@ Membuat Hook Kita sendiri memungkinkan Kita mengekstrak komponen logika ke fungs
 
 ##### File 1
 
+Ketika menambahkan task
 ![file1](./screenshots/prak1.png)
+
+Ketika task kosong
+![file2](./screenshots/prak2.png)
 
 ---
 

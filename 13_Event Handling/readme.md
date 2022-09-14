@@ -82,7 +82,11 @@ Beberapa contoh list Event
 
 ##### File 1
 
+Ketika di Menambahkan task
 ![file1](./screenshots/prak1.png)
+
+Ketika task kosong
+![file1](./screenshots/prak2.png)
 
 ---
 
