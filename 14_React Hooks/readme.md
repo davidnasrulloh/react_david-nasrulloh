@@ -84,6 +84,17 @@ Ketika menambahkan task
 Ketika task kosong
 ![file2](./screenshots/prak2.png)
 
+Tambah dan Checkec Task
+![file3](./screenshots/prak3.png)
+
+Unchecked
+Ketika task kosong
+![file4](./screenshots/prak4.png)
+
+Deleted Task
+Ketika task kosong
+![file4](./screenshots/prak5.png)
+
 ---
 
 14 September 2022 | David Nasrulloh
