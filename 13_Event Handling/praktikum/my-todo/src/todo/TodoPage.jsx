@@ -4,30 +4,46 @@ import { v4 as uuidv4 } from "uuid";
 import styles from "./TodoPage.module.css";
 import ListTask from "./component/ListTask";
 import AddTask from "./component/AddTask";
-import { useState } from "react";
+import { Component } from "react";
 
-function TodoPage (){
+class TodoPage extends Component {
 
-    const [data, setData] = useState(taskData);
-
-    const hapusTask = (id) => {
-        setData((oldData) => oldData.filter(tugas => {
-            return tugas.id !== id;
-        }))
+    constructor(props) {
+        super(props)
+        this.state = {
+            data: taskData
+        }
     }
 
-    const tambahTask = (newTugas) => {
+    hapusTask = (id) => {
+        const newListTask = this.state.data.filter((item) => item.id !== id);
+
+        this.setState({data : newListTask})
+    }
+
+    tambahTask = (newTugas) => {
         const newTask = {id: uuidv4(), ...newTugas};
-        setData((oldData) => [...oldData, newTask]);
+
+        this.setState({data: [...this.state.data, newTask]});
     }
 
-    return (
-        <div className={styles.todoBody}>
-            <Header text="David Nasrulloh"/>
-            <AddTask tambahTask={tambahTask} />
-            {data.map((tugas) => <ListTask key={tugas.id} data={tugas} hapusTask={hapusTask}/> )}
-        </div>
-    );
+    ubahCheck(index) {
+        const updatedData = [...this.state.data];
+        updatedData[index].completed = !updatedData[index].completed;
+        this.setState({
+            data: updatedData
+        });
+    }
+
+    render(){
+        return (
+            <div className="todoBody">
+                <Header text="David Nasrulloh"/>
+                <AddTask tambahTask={this.tambahTask} />
+                {this.state.data.map((tugas, idx) => <ListTask key={idx} ubahCheck={() => this.ubahCheck(idx)} completed={tugas.completed} data={tugas} hapusTask={this.hapusTask}/> )}
+            </div>
+        )
+    }
 }
 
 export default TodoPage;

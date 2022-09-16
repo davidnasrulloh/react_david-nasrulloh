@@ -1,48 +1,50 @@
-import React, { useState } from "react";
+import React, { Component, useState } from "react";
 import styles from "./ListTask.module.css";
 
-function AddTask(props) {
+class AddTask extends Component {
     
-    const [data, setData] = useState({
+    state = {
         title: "",
-        completed: "false",
-    })
+        completed: false
+    }
 
-    const onChange = e => {
-        setData({
-            ...data, 
+    onChange = e => {
+        this.setState({
             [e.target.name]: e.target.value
         })
     }
 
-    const handleSubmit = (e) => {
-        const formIsNotEmpty = data.title;
+    handleSubmit = (e) => {
+        e.preventDefault();
+        const formIsNotEmpty = this.state.title;
 
         if(formIsNotEmpty){
             const newTugas = { 
-                title: data.title,
-                // completed: data.completed,
+                title: this.state.title,
+                completed: this.state.completed,
             }
 
-            props.tambahTask(newTugas);
-            setData({
+            this.props.tambahTask(newTugas);
+            this.setState({
                 title:"",
-                completed: "false"
+                completed: false
             })
         } else {
             alert("task masih ada yang kosong");
         }
     }
 
-    return(
-        <div onSubmit={()=>{}} className={styles.bungkus}>
-            <div className={styles.addTask}>
-                <input type="text" placeholder="Masukkan nama anda" name="title" value={data.title} onChange={onChange} /> 
-                <input type="hidden" name="completed" value="false" />
-                <button onClick={handleSubmit}>submit</button>
+    render(){
+        return(
+            <div onSubmit={()=>{}} className={styles.bungkus}>
+                <div className={styles.addTask}>
+                    <input type="text" placeholder="Masukkan nama anda" name="title" value={this.state.title} onChange={this.onChange} /> 
+                    <input type="hidden" name="completed" value="false" />
+                    <button onClick={this.handleSubmit}>submit</button>
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
 
 export default AddTask;
