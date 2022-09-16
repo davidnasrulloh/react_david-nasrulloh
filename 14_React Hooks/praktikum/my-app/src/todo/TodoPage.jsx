@@ -21,11 +21,17 @@ function TodoPage (){
         setData((oldData) => [...oldData, newTask]);
     }
 
+    const ubahCheck = (index) => {
+        const updatedData = [...data];
+        updatedData[index].completed = !updatedData[index].completed;
+        setData((oldData) => [...oldData = updatedData]);
+    }
+
     return (
         <div className={styles.todoBody}>
             <Header text="David Nasrulloh"/>
             <AddTask tambahTask={tambahTask} />
-            {data.map((tugas) => <ListTask key={tugas.id} data={tugas} hapusTask={hapusTask}/> )}
+            {data.map((tugas, idx) => <ListTask key={idx} ubahCheck={() => ubahCheck(idx)} data={tugas} hapusTask={hapusTask}/> )}
         </div>
     );
 }

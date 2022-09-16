@@ -1,5 +1,5 @@
 // import React, { useState } from "react";
-import { taskData } from "./taskData";
+// import { taskData } from "./taskData";
 import TodoPage from "./todo/TodoPage";
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
   // }
 
   return (
-    <TodoPage tasks={taskData}/>
+    <TodoPage />
   );
 }
 
