@@ -358,6 +358,49 @@ Prodi : Sistem Informasi
  ┃ ┣ 📜prak4.png
  ┃ ┗ 📜prak5.png
  ┗ 📜readme.md
+ 📦15_React Routing
+ ┣ 📂praktikum
+ ┃ ┗ 📂my-app
+ ┃ ┃ ┣ 📂public
+ ┃ ┃ ┃ ┣ 📜index.html
+ ┃ ┃ ┃ ┣ 📜manifest.json
+ ┃ ┃ ┃ ┗ 📜robots.txt
+ ┃ ┃ ┣ 📂src
+ ┃ ┃ ┃ ┣ 📂Component
+ ┃ ┃ ┃ ┃ ┣ 📜AboutApp.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜AboutAuthor.jsx
+ ┃ ┃ ┃ ┣ 📂todo
+ ┃ ┃ ┃ ┃ ┣ 📂assets
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂css
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ListTask.module.css
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜Sidebar.css
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂img
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜checkbox-checked-svgrepo-com.svg
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜checkbox-unchecked-svgrepo-com.svg
+ ┃ ┃ ┃ ┃ ┣ 📂component
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜AddTask.jsx
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜Header.jsx
+ ┃ ┃ ┃ ┃ ┃ ┣ 📜ListTask.jsx
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜Sidebar.jsx
+ ┃ ┃ ┃ ┃ ┣ 📜TodoPage.jsx
+ ┃ ┃ ┃ ┃ ┗ 📜TodoPage.module.css
+ ┃ ┃ ┃ ┣ 📜App.css
+ ┃ ┃ ┃ ┣ 📜App.js
+ ┃ ┃ ┃ ┣ 📜index.css
+ ┃ ┃ ┃ ┣ 📜index.js
+ ┃ ┃ ┃ ┣ 📜setupTests.js
+ ┃ ┃ ┃ ┗ 📜taskData.js
+ ┃ ┃ ┣ 📜.gitignore
+ ┃ ┃ ┣ 📜package-lock.json
+ ┃ ┃ ┣ 📜package.json
+ ┃ ┃ ┗ 📜README.md
+ ┣ 📂screenshots
+ ┃ ┣ 📜prak1.png
+ ┃ ┣ 📜prak2.png
+ ┃ ┣ 📜prak3.png
+ ┃ ┣ 📜prak4.png
+ ┃ ┗ 📜readme.md
+ ┗ 📜readme.md
 ```
 
 ---
