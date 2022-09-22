@@ -1,0 +1,9 @@
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sidebar {
+    height: 50%;
+}
