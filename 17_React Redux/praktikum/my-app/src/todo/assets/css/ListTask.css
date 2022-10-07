@@ -1,0 +1,41 @@
+.checkItems {
+    padding: 12px;
+    width: 20%;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    margin-right: 44px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.titleItems {
+    width: 70%;
+    /* background-color: black; */
+    text-align: start;
+    align-self: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.deleteItems {
+    width: 10%;
+    padding: 12px 32px;
+    background-color: red;
+    border-radius: 12px;
+    color: white;
+}
+
+.deleteItems:hover {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 6px 18px -4px rgba(68, 52, 52, 0.75);
+    -webkit-box-shadow: 2px 6px 18px -4px rgba(185, 158, 158, 0.75);
+    -moz-box-shadow: 2px 6px 18px -4px rgba(153, 93, 93, 0.75);
+}
+
+.listBungkus {
+    padding: 10px;
+    margin: 0px 100px;
+}

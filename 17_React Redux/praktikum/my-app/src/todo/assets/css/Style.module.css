@@ -1,0 +1,110 @@
+h1 {
+    font-size: 70px;
+    margin: 0px 12px;
+    padding: 0px 12px 24px;
+    background: #0a138b;
+    background: radial-gradient(circle farthest-corner at bottom left, #1600df 0%, #009625 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header {
+    box-shadow: -2px -1px 41px -2px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: -2px -1px 41px -2px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: -2px -1px 41px -2px rgba(0, 0, 0, 0.19);
+    margin-bottom: 24px;
+    padding: 80px;
+    color: white;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.topHeader {
+    display: flex;
+    margin: 0px 32px;
+    justify-content: start;
+}
+
+.submit {
+    font-weight: bold;
+    color: black;
+    font-size: 24px !important;
+}
+
+.card {
+    padding: 12px 24px;
+    border-color: black;
+    border-radius: 12px;
+    border: solid;
+    margin: 24px;
+    width: 50%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerCard {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.delete {
+    background-color: rgb(212, 199, 199);
+    color: black;
+    border: none;
+    padding: 24px 16px;
+    border-radius: 100%;
+}
+
+.bungkus {
+    margin: 32px 0px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addTask {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 12px 12px;
+    border-radius: 32px;
+    background-color: white;
+    box-shadow: 2px 6px 18px -4px rgba(68, 52, 52, 0.75);
+    -webkit-box-shadow: 2px 6px 18px -4px rgba(185, 158, 158, 0.75);
+    -moz-box-shadow: 2px 6px 18px -4px rgba(153, 93, 93, 0.75);
+    border: 4px solid rgb(172, 172, 184);
+}
+
+.addTask input {
+    width: 100%;
+    border-radius: 24px;
+    padding: 24px;
+    margin-right: 32px;
+    border: none;
+    font-size: 20px;
+}
+
+.addTask button {
+    border: none;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cok {
+    padding: 10px;
+    width: 20%;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    margin-right: 44px;
+    color: white;
+    font-weight: bold;
+}

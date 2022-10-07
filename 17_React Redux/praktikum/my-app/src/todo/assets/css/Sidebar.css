@@ -1,0 +1,17 @@
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sidebar {
+    height: 50%;
+}
+
+.barCanvas {
+    padding: 40px;
+}
+
+.headerCanvas {
+    padding: 60px 40px 20px 40px;
+}
