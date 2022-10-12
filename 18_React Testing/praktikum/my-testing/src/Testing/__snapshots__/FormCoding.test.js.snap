@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Coding Render FromCoding Component 1`] = `
+Array [
+  <h1
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    Pendaftaran Peserta Coding Bootcamp
+  </h1>,
+  <form
+    className="centerForm"
+    onSubmit={[Function]}
+  >
+    <label>
+      Nama Lengkap:
+      <input
+        className="input"
+        name="nama"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+    </label>
+    <label>
+      Email: 
+      <br />
+      <input
+        className="input"
+        name="email"
+        onChange={[Function]}
+        required={true}
+        type="email"
+        value=""
+      />
+    </label>
+    <label>
+      No Handphone: 
+      <br />
+      <input
+        name="noHandphone"
+        onChange={[Function]}
+        type="number"
+        value=""
+      />
+    </label>
+    <label>
+      Latar Belakang Pendidikan: 
+      <br />
+      <input
+        checked={false}
+        name="pendidikan"
+        onChange={[Function]}
+        required={true}
+        type="radio"
+        value="IT"
+      />
+      IT
+      <input
+        checked={false}
+        name="pendidikan"
+        onChange={[Function]}
+        type="radio"
+        value="Non IT"
+      />
+      Non IT
+    </label>
+    <br />
+    <label>
+      Kelas Coding yang Dipilih: 
+      <br />
+      <select
+        name="kelas"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      >
+        <option
+          disabled={true}
+          value=""
+        >
+          Pilih Salah Satu Program
+        </option>
+        <option
+          value="golang"
+        >
+          Coding Backend with Golang
+        </option>
+        <option
+          value="reactjs"
+        >
+          Coding Frontend with ReactJS
+        </option>
+        <option
+          value="fullstack"
+        >
+          Fullstack Developer
+        </option>
+      </select>
+    </label>
+    <label>
+      Foto Surat Kesungguhan:
+      <input
+        name="suratKesungguhan"
+        onChange={[Function]}
+        required={true}
+        type="file"
+      />
+    </label>
+    <label>
+      Harapan Untuk Coding Bootcamp Ini: 
+      <br />
+      <textarea
+        name="harapan"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+    </label>
+    <ul />
+    <br />
+    <br />
+    <input
+      type="submit"
+      value="Submit"
+    />
+    <button
+      className="buttonReset"
+      onClick={[Function]}
+    >
+      Reset
+    </button>
+  </form>,
+]
+`;

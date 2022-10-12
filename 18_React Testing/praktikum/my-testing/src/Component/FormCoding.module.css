@@ -1,0 +1,71 @@
+.centerForm {
+  margin: 50px 300px;
+}
+
+input[type=radio] {
+  margin: 5px 3px 8px 5px;
+}
+
+input[type=text], input[type=number], input[type=file], input[type=email], select {
+  width: 100%;
+  display: block;
+  /* width: 500px; */
+  box-sizing: border-box;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  padding: 0 10px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  height: 90px;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+button, input[type=submit] {
+  width: 120px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: bold;
+  border-style: solid;
+}
+
+button:hover, input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.buttonSubmit, input[type=submit] {
+  margin-right: 10px;
+  background: green;
+  border-color: green;
+  color: white;
+}
+
+.buttonSubmit:hover, input[type=submit]:hover {
+  background: transparent;
+  color: green;
+}
+
+.buttonReset {
+  background: red;
+  border-color: red;
+  color: white;
+}
+
+.buttonReset:hover {
+  background: transparent;
+  color: red;
+}
+
+.errorMassage {
+  color: red;
+}
