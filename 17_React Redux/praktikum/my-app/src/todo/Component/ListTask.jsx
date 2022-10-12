@@ -29,14 +29,16 @@ const ListTask = (
         <div className="listBungkus">
             <div className="mb-2 cardItems w-100 card">
                 <div className="card-body w-100">
-                    <div className="d-flex align-self-start">
+                    <div className="d-flex">
                         <button className="checkItems">
                             <img  id={data.id} onClick={handleChangeCheck} src={coret ? checked : unchecked} alt=""/>
                         </button>
                         <div className="align-self-center titleItems">
                             <span id="title"  style={ coret ? { textDecoration: "line-through"} : {textDecoration: ""} }>{data.title}</span>
                         </div>
-                        <button className="delete deleteItems" id={data.id} onClick={handleDeleteTask} type="submit">delete</button>
+                        <div className="w-100 d-flex justify-content-end">
+                            <button className="delete deleteItems" id={data.id} onClick={handleDeleteTask} type="submit">delete</button>
+                        </div>
                     </div>
                 </div>
             </div>

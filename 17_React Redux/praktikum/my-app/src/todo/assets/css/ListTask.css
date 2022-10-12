@@ -9,7 +9,7 @@
 }
 
 .titleItems {
-    width: 70%;
+    width: 100vh;
     /* background-color: black; */
     text-align: start;
     align-self: center;
@@ -19,7 +19,7 @@
 }
 
 .deleteItems {
-    width: 10%;
+    width: 20%;
     padding: 12px 32px;
     background-color: red;
     border-radius: 12px;
