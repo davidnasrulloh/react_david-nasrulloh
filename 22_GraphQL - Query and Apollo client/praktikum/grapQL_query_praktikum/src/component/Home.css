@@ -1,0 +1,11 @@
+tr,td {
+    border: 1px solid black;
+}
+
+.removeBorder {
+    border: none;
+}
+
+.inputan {
+    margin-top: 25px;
+}
