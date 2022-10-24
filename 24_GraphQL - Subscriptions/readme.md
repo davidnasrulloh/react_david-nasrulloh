@@ -75,9 +75,17 @@ subscribeToMore is a function that enables you to execute a subscription, usuall
 
 ### output praktikum:
 
-##### Tampilan Hasil Deployment dengan Netlify
+##### Hasil yang udah jalan dengan mantap
 
-![file1](./screenshots/prak2.png)
+![file1](./screenshots/prak1.png)
+
+##### Code 1
+
+![file2](./screenshots/prak2.png)
+
+##### Code 2
+
+![file3](./screenshots/prak3.png)
 
 ---
 
