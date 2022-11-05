@@ -1,6 +1,6 @@
 # 3 \_ Version Control and Branch Management (Git)
 
-```sh
+```
 Nama  : David Nasrulloh
 Email : davidkrb52@gmail.com
 Univ  : Universitas Trunojoyo Madura
