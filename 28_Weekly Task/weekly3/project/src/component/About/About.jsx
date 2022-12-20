@@ -23,12 +23,12 @@ const About = () => {
     const [experience, setExperience] = useState(experiences);
     const [education, setEducation] = useState(educations);
 
-    useEffect(()=>{
+    useEffect(() => {
         setExperience(experiences);
-        setEducation(education);
-    },[experiences, education])
+        setEducation(educations);
+    }, [experiences, educations])
 
-    return(
+    return (
         <>
             <div className="container" id="about-us">
                 <div className="text-center">
@@ -51,11 +51,11 @@ const About = () => {
                         <div>
                             <h4 className="text-primary fw-bold mb-4">Educations</h4>
                             {
-                                education.map((ed)=>{
-                                    return(
+                                education.map((ed) => {
+                                    return (
                                         <div className="d-flex flex-row mb-3">
                                             <div className="w-25 text-end">
-                                                <h6 className="fw-normal">{ed.city} <br/> {ed.time}</h6>
+                                                <h6 className="fw-normal">{ed.city} <br /> {ed.time}</h6>
                                             </div>
                                             <div className="w-75 ps-4">
                                                 <h5 className="fw-bold">{ed.location}</h5>
@@ -95,8 +95,8 @@ const About = () => {
                             <div className="d-flex flex-fill mt-4">
                                 <div className="d-flex flex-wrap h-50 flex-fill">
                                     {
-                                        experience.map((ex)=>{
-                                            return(
+                                        experience.map((ex) => {
+                                            return (
                                                 <div className="mb-4 w-50 pe-2">
                                                     <h5 className="fw-normal"><span className="fw-bold">{ex.location}</span>, {ex.position}, Sept’22 - Nov’22</h5>
                                                 </div>
